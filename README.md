@@ -62,21 +62,4 @@ Perform passive reconnaissance and footprinting for a selected web application.
 - Summarize findings and document evidence/screenshots for each step.
 
 ***
-
-## How To Use
-
-- Clone the repo:
-  ```
-  git clone https://github.com/Rahulgandham/SkillHorizon-Internship.git
-  ```
-- Navigate to assignment folders and follow the scripts/usage instructions in each.
-- Install recommended tools via apt, go, or pip as per tool documentation.
-- Only use authorized or in-scope domains for all reconnaissance tasks.
-
-***
-
-## Prerequisites
-
-- Kali Linux (recommended) or any compatible Linux distribution.
-- Basic understanding of Linux CLI and cybersecurity concepts.
 - All tools should be installed and updated; see official docs for each.
