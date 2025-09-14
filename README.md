@@ -64,7 +64,7 @@ Perform passive reconnaissance and footprinting for a selected web application.
 - All tools should be installed and updated; see official docs for each.
 
 
-###Assignment 3:Burp Suite Configuration and Traffic Analysis
+### Assignment 3:Burp Suite Configuration and Traffic Analysis
 
 This project demonstrates the process of configuring Burp Suite for web traffic analysis, a key skill in web application security testing. The setup involves integrating Burp Suite with a browser, managing SSL certificates, and defining a clear scope for analysis to ensure efficient and focused testing.
 Key Steps:
