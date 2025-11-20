@@ -92,7 +92,7 @@ Conduct active recon on an approved target to discover live hosts, open ports, s
 - Host discovery and IP identification  
 - Port and service scans with increasing depth  
 - Directory brute-forcing and fingerprinting  
-- Vulnerability checks and professional reporting[2]
+- Vulnerability checks and professional reporting
 
 ### Assignment 5: Automated Vulnerability Scanning
 
@@ -109,7 +109,7 @@ Safely scan an approved web application for vulnerabilities using automated scan
 - Recon and discovery of live hosts and open ports  
 - Fingerprint scanning and directory enumeration  
 - Automated vulnerability scans  
-- WPScan analysis if applicable[1]
+- WPScan analysis if applicable
 
 ### Assignment 6: DVWA Web Application Vulnerability Discovery
 
@@ -121,7 +121,48 @@ Install and attack DVWA (Damn Vulnerable Web Application) on Kali Linux, explori
 - Payload crafting for bypassing filters  
 - Reverse shell uploads and listener setups  
 - Exploiting and documenting multiple vulnerability types  
-- Reference to OWASP and industry best practices for remediation and further learning[3]
+- Reference to OWASP and industry best practices for remediation and further learning.
+
+  Here is a concise summary for your DVWA Security Level Comparison Project, suitable for inclusion in a GitHub README file:
+
+***
+
+## DVWA Security Level Comparison Project
+
+This project utilizes Damn Vulnerable Web Application (DVWA) to analyze how web security practices evolve across four configurable security levels
+—Low, Medium, High, and Impossible
+—by testing common vulnerabilities: SQL Injection (SQLi) and Reflected Cross-Site Scripting (XSS).
+
+### Project Goals
+- Demonstrate exploitation techniques against insecure coding in DVWA.
+- Evaluate defensive strategies and incremental security improvements found in web application security settings.
+- Document practical findings, fostering a deeper understanding of secure development for aspiring cybersecurity professionals.
+
+### Tools and Environment
+- DVWA hosted on a local VM with Apache and MySQL for safe, offline testing.
+- Manual input forms and Burp Suite used for request interception and payload manipulation.
+
+### Tested Vulnerabilities
+
+| Vulnerability         | Description                                                                                  |
+|----------------------|----------------------------------------------------------------------------------------------|
+| SQL Injection (SQLi) | Injected SQL queries via user input to gain unauthorized access or extract database contents. |
+| Reflected XSS        | Injected JavaScript payloads that were reflected and executed in a victim’s browser.         |
+
+### Security Levels Analysis
+- **Low:** No defenses; easy exploitation demonstrates real-world coding flaws.
+- **Medium:** Basic input validation; still vulnerable to union-based SQLi and filter bypasses.
+- **High:** Advanced filtering; mitigates simple payloads and suppresses error messages.
+- **Impossible:** Secure against all tested attacks; fully parameterized queries and robust output encoding prevent vulnerabilities
+
+### Key Findings
+- Security hardening through successive coding improvements drastically reduces exploitable attack surfaces.
+- DVWA’s layered approach mirrors real-life application hardening, providing excellent hands-on training in defensive programming and vulnerability assessment.
+
+### Educational Value
+This project shows how defensive strategies thwart common attacks, offering practical experience essential for future cybersecurity experts.
+
+***
 
 ## Getting Started
 
